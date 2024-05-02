@@ -1,0 +1,14 @@
+{% extends './layout.html' %}
+
+{% block title %}
+
+{{data["titulo"]}}
+
+{% endblock %}
+
+{% block body %}
+
+    <h1>{{data.nombre.capitalize()}}</h1>
+    <h2>Tu edad es de : {{data.edad}} años</h2>
+
+{% endblock %}
